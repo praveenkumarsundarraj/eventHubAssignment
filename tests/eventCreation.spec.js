@@ -77,7 +77,7 @@ async function bookEvent(page, ticketQuantity, eventTitleInput){
     await bookingBtn.click();
 }
 
-test.only('Event Booking Validation', async({page})=>{
+test('Event Booking Validation', async({page})=>{
     await page.goto('/');
     const eventTitleInput = 'Test Event' + Date.now();
     const eventCard = page.locator('#event-card');

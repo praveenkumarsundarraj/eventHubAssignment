@@ -18,7 +18,7 @@ export default defineConfig({
     baseURL: 'https://eventhub.rahulshettyacademy.com/login',
     browserName: 'chromium',
     screenshot: 'only-on-failure',
-    headless: true,
+    headless: false,
     trace: 'retain-on-failure',
   },
 });
